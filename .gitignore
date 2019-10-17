@@ -2,3 +2,6 @@ XRoad.Domain/bin/
 XRoad.Domain/obj/
 XRoad.GlobalConfiguration/bin/
 XRoad.GlobalConfiguration/obj/
+/.vs/xroad-config-reader/v16
+/.vs/XRoad.ObjectModel/v16
+/.vs/slnx.sqlite
