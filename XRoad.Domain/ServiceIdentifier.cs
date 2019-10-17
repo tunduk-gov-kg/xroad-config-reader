@@ -12,7 +12,10 @@ namespace XRoad.Domain
             return $"{base.ToString()}/{ServiceCode}/{ServiceVersion}";
         }
 
-        protected bool Equals(ServiceIdentifier other)
+        public bool IsServiceCodeProvided => !string.IsNullOrEmpty(ServiceCode);
+        public bool IsServiceVersionProvided => !string.IsNullOrEmpty(ServiceVersion);
+
+        public bool Equals(ServiceIdentifier other)
         {
             return base.Equals(other) && string.Equals(ServiceCode, other.ServiceCode) &&
                    string.Equals(ServiceVersion, other.ServiceVersion);

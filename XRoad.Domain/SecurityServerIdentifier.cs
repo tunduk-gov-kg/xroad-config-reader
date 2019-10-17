@@ -8,7 +8,10 @@
         {
             return $"{Instance}/{MemberClass}/{MemberCode}/{SecurityServerCode}";
         }
+
+        public bool IsSecurityServerCodeProvided => !string.IsNullOrEmpty(SecurityServerCode);
     }
+
 
     public class SecurityServerData
     {

@@ -11,6 +11,10 @@
             return $"{Instance}/{MemberClass}/{MemberCode}";
         }
 
+        public bool IsInstanceProvided => !string.IsNullOrEmpty(Instance);
+        public bool IsMemberClassProvided => !string.IsNullOrEmpty(MemberClass);
+        public bool IsMemberCodeProvided => !string.IsNullOrEmpty(MemberCode);
+
         protected bool Equals(MemberIdentifier other)
         {
             return string.Equals(Instance, other.Instance) && string.Equals(MemberClass, other.MemberClass) &&

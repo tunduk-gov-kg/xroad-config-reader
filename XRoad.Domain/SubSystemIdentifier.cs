@@ -4,6 +4,8 @@
     {
         public string SubSystemCode { get; set; }
 
+        public bool IsSubSystemCodeProvided => !string.IsNullOrEmpty(SubSystemCode);
+
         protected bool Equals(SubSystemIdentifier other)
         {
             return base.Equals(other) && string.Equals(SubSystemCode, other.SubSystemCode);

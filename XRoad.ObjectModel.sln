@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XRoad.Domain", "XRoad.Domain\XRoad.Domain.csproj", "{6F2AA725-8E0F-48EC-A062-9A644D47DF31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XRoad.GlobalConfiguration", "XRoad.GlobalConfiguration\XRoad.GlobalConfiguration.csproj", "{729CD19D-780E-43C3-865E-BFEDD1F04FB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F2AA725-8E0F-48EC-A062-9A644D47DF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2AA725-8E0F-48EC-A062-9A644D47DF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2AA725-8E0F-48EC-A062-9A644D47DF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2AA725-8E0F-48EC-A062-9A644D47DF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729CD19D-780E-43C3-865E-BFEDD1F04FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729CD19D-780E-43C3-865E-BFEDD1F04FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729CD19D-780E-43C3-865E-BFEDD1F04FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729CD19D-780E-43C3-865E-BFEDD1F04FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
